@@ -1,0 +1,142 @@
+/* Basic body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    font-size: 2.5 em;
+    background-image:url('exploretheworld.jpeg');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-color:black; /* Blue background */
+    color: white;
+    padding:100px  20px;
+}
+
+/* Header Image */
+.header-image {
+    width: 100%; /* Full width */
+    max-width: 800px; /* Max width to prevent stretching */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 20px; /* Space above the image */
+    margin-bottom: 30px; /* Add margin below the image for gap */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Main container */
+.container {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+/* Sign Up Section */
+.signup-section {
+    background-color: #e9ecef; /* Distinct white background for signup section */
+    color: black; /* Black text color for better readability */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Section styles */
+section {
+    margin: 50px 0;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.2em;
+}
+
+/* Adventure, luxury, and city tour section styles */
+.trip, .resort, .tour {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 5px;
+    padding: 15px;
+    max-width: 600px;
+    background-color: #e9ecef;
+}
+
+.trip img, .resort img, .tour img {
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}
+/* Customer reviews section styles */
+.reviews {
+    margin-top: 50px;
+}
+
+.review {
+    background-color: #e9ecef;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: left;
+}
+
+.review h3 {
+    margin-bottom: 10px;
+}
+
+/* Sign-up form styles */
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-form input {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc; /* Added border for inputs */
+    font-size: 1em;
+}
+
+.signup-form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.signup-form button:hover {
+    background-color: #45a049;
+}
+
+/* Footer styles */
+.footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+/* Responsive design for mobile screens */
+@media (max-width: 768px) {
+    .trip, .resort, .tour {
+        display: block;
+        margin-bottom: 20px;
+    }
+}
